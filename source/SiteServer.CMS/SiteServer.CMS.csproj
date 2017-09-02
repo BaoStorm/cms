@@ -194,6 +194,15 @@
     <Compile Include="Core\Permissions\PermissionConfig.cs" />
     <Compile Include="Core\Permissions\PermissionConfigManager.cs" />
     <Compile Include="Core\Permissions\PermissionManager.cs" />
+    <Compile Include="Plugin\Apis\SmsApi.cs" />
+    <Compile Include="Plugin\Apis\ParseApi.cs" />
+    <Compile Include="Plugin\Apis\PageApi.cs" />
+    <Compile Include="Plugin\Apis\NodeApi.cs" />
+    <Compile Include="Plugin\Apis\FilesApi.cs" />
+    <Compile Include="Plugin\Apis\ContentApi.cs" />
+    <Compile Include="Plugin\Apis\ConfigApi.cs" />
+    <Compile Include="Plugin\Apis\AuthApi.cs" />
+    <Compile Include="Plugin\Apis\DataApi.cs" />
     <Compile Include="Plugin\PluginCache.cs" />
     <Compile Include="Plugin\PluginUtils.cs" />
     <Compile Include="Core\TabManager.cs" />
@@ -202,7 +211,7 @@
     <Compile Include="Model\InputInfoExtend.cs" />
     <Compile Include="Core\ContentUtility.cs" />
     <Compile Include="Plugin\PluginManager.cs" />
-    <Compile Include="Plugin\PublicApiInstance.cs" />
+    <Compile Include="Plugin\Apis\PublishmentSystemApi.cs" />
     <Compile Include="Provider\PluginConfigDao.cs" />
     <Compile Include="StlParser\Cache\Advertisement.cs" />
     <Compile Include="StlParser\Cache\SeoMeta.cs" />
@@ -396,7 +405,6 @@
     <Compile Include="StlParser\StlElement\StlIf.cs" />
     <Compile Include="StlParser\StlElement\StlImage.cs" />
     <Compile Include="StlParser\StlElement\StlInclude.cs" />
-    <Compile Include="StlParser\StlElement\StlInput.cs" />
     <Compile Include="StlParser\StlElement\StlInputContent.cs" />
     <Compile Include="StlParser\StlElement\StlInputContents.cs" />
     <Compile Include="StlParser\StlElement\StlLocation.cs" />
