@@ -57,6 +57,10 @@ namespace SiteServer.API
                 WebConfigUtils.PhysicalApplicationPath, false));
         }
 
+        protected void Application_BeginRequest(object sender, EventArgs e)
+        {
+            if (Context.Request.FilePath == "/") Context.RewritePath("index.html");
+        }
 
     }
 }

@@ -29,7 +29,6 @@
 <header id="topnav">
     <div class="topbar-main">
       <div class="logo">
-        <a href="http://www.siteserver.cn" target="_blank" class="logo"><img src="images/siteserver.png" /></a>
         <a href="javascript:;" class="toggle" id="top-toggle"><i class="icon-arrow-left"></i></a>
       </div>
       <ul class="navigation-menu">

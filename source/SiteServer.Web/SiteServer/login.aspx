@@ -21,7 +21,6 @@
     <form class="form-inline" runat="server" autocomplete="off">
         <div class="yunMain">
             <div class="yunTop">
-                <a class="yunLogo" href="http://www.siteserver.cn"><img src="pic/login/siteserver.png" /></a>
             </div>
             <div class="yunItmName">
                 <img src="pic/login/yun_ico1.jpg" width="31" height="32" /><span class="yunItmS">管理员登录</span>
@@ -85,7 +84,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="yunFooter">北京百容千域软件技术开发有限公司 版权所有 Copyright © 2003-<script>document.write(new Date().getFullYear());</script></div>
+            <div class="yunFooter">版权所有 Copyright © 2003-<script>document.write(new Date().getFullYear());</script></div>
         </div>
     </form>
 </body>
